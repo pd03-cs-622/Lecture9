@@ -1,0 +1,36 @@
+# Company Information
+company:
+  name: Tech Innovators Inc.
+  address: &office_address
+    street: 123 Innovation Drive
+    city: Techville
+    state: CA
+    zip: 90210
+departments:
+  - name: Research and Development
+    head: Dr. Jane Smith
+    employees:
+      - name: Alice Johnson
+        role: Senior Engineer
+        contact:
+          email: alice.johnson@techinnovators.com
+          phone: 555-1234
+  - name: Marketing
+    head: Mr. John Doe
+    employees:
+    - name: Carol White
+      role: Marketing Manager
+      contact:
+      email: carol.white@techinnovators.com
+      phone: 555-8765
+# Office Locations
+offices:
+  - name: Headquarters
+    address: *office_address
+    contact:
+      phone: 555-0000
+    fax: 555-0001
+  - name: European Branch
+    address:
+    street: 456 Tech Avenue
+    city: somewhere
